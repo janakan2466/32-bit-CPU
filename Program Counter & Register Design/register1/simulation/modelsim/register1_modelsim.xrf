@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/student1/jsivalog/Desktop/COE608/Lab2/register1/register1.vhd
+source_file = 1, /home/student1/jsivalog/Desktop/COE608/Lab2/register1/db/register1.cbx.xml
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = register1
+instance = comp, \Q~output\, Q~output, register1, 1
+instance = comp, \clk~input\, clk~input, register1, 1
+instance = comp, \ld~input\, ld~input, register1, 1
+instance = comp, \d~input\, d~input, register1, 1
+instance = comp, \Q~0\, Q~0, register1, 1
+instance = comp, \clr~input\, clr~input, register1, 1
+instance = comp, \Q~reg0\, Q~reg0, register1, 1

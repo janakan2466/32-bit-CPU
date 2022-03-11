@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/jsivalog/Desktop/COE608/Lab2/register32/simulation/qsim
+vregister32
+Z1 !s100 ]CkMJj1ZP9R29eGF6>gFT2
+Z2 IaDS@B3@;hz]ODEbcRJW9M1
+Z3 V?;giNaIYnjjc3Z:9hlIFg3
+Z4 d/home/student1/jsivalog/Desktop/COE608/Lab2/register32/simulation/qsim
+Z5 w1643875069
+Z6 8register32.vo
+Z7 Fregister32.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|register32.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1643875074.086369
+Z12 !s107 register32.vo|
+!s101 -O0
+vregister32_vlg_check_tst
+!i10b 1
+Z13 !s100 bS=EjLP15nj3dWF0ZA;l]1
+Z14 Ib1DjF?93UXICaZdR6:0U42
+Z15 V9JUIQY:]:E5M3WBBn[9gc1
+R4
+Z16 w1643875066
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 64
+R8
+r1
+!s85 0
+31
+Z19 !s108 1643875074.253690
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vregister32_vlg_sample_tst
+!i10b 1
+Z22 !s100 a7kQF^VWWoU4@oLPIQ=<S1
+Z23 IAzM8eUj7EadJZP9Ui;?fe3
+Z24 VlhE5A9cMYkRUWY_Ei>PFM3
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vregister32_vlg_vec_tst
+!i10b 1
+Z25 !s100 EU4JU9>O@Nal6PDh3jFhd1
+Z26 I8YXT0InH9P:;fLBh]HRRL3
+Z27 VQIkE7_<FCn=m<f?lDLPO^0
+R4
+R16
+R17
+R18
+Z28 L0 748
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

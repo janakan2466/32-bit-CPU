@@ -1,0 +1,83 @@
+# do register32.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register32
+# 
+# Top level modules:
+# 	register32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register32_vlg_sample_tst
+# -- Compiling module register32_vlg_check_tst
+# -- Compiling module register32_vlg_vec_tst
+# 
+# Top level modules:
+# 	register32_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.register32_vlg_vec_tst 
+# //  ModelSim ALTERA 10.1e Jun 12 2013 Linux 3.10.0-1127.8.2.el7.x86_64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.register32_vlg_vec_tst
+# Loading work.register32
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading altera_ver.dffeas
+# Loading work.register32_vlg_sample_tst
+# Loading work.register32_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port Q[0] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[4] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[8] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[12] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[16] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[20] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[24] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[28] :: @time = 400000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00010001000100010001000100010001
+# ERROR! Vector Mismatch for output port Q[1] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[5] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[9] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[13] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[17] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[21] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[25] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+# ERROR! Vector Mismatch for output port Q[29] :: @time = 750000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00100010001000100010001000100010
+#          16 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform.vwf.vt(744)
+#    Time: 1 us  Iteration: 0  Instance: /register32_vlg_vec_tst/tb_out
