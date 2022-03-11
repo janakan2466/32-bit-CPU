@@ -1,0 +1,44 @@
+# do Lab4a.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module data_mem_vlg_sample_tst
+# -- Compiling module data_mem_vlg_check_tst
+# -- Compiling module data_mem_vlg_vec_tst
+# 
+# Top level modules:
+# 	data_mem_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.data_mem_vlg_vec_tst 
+# //  ModelSim ALTERA 10.1e Jun 12 2013 Linux 3.10.0-1127.8.2.el7.x86_64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.data_mem_vlg_vec_tst
+# Loading work.data_mem
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.data_mem_vlg_sample_tst
+# Loading work.data_mem_vlg_check_tst
+# SDF 10.1e Compiler 2013.06 Jun 12 2013
+# Loading instances from Lab4a_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from Lab4a_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_mem_vlg_vec_tst File: data_mem.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : data_mem.vwf.vt(714)
+#    Time: 1 us  Iteration: 0  Instance: /data_mem_vlg_vec_tst/tb_out

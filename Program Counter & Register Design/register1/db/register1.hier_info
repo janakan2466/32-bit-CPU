@@ -1,0 +1,8 @@
+|register1
+d => Q~reg0.DATAIN
+ld => Q~reg0.ENA
+clr => Q~reg0.ACLR
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

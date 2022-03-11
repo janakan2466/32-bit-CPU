@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab4b">
+		<CBX_INST_ENTRY INSTANCE_NAME="|data_path|data_mem:Data_Mem0|altsyncram:DATAMEM_rtl_0" CBX_FILE_NAME="altsyncram_hie1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

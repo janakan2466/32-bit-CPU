@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/jsivalog/Desktop/COE608/Lab4a/simulation/qsim
+vdata_mem
+Z1 INSLF9W2kNfU6MC4R5cBam2
+Z2 V[4:GgDn=oc<7[cb3k2hlo2
+Z3 d/home/student1/jsivalog/Desktop/COE608/Lab4a/simulation/qsim
+Z4 w1645050435
+Z5 8Lab4a.vo
+Z6 FLab4a.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s90 -work|work|Lab4a.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Lkh@WXEen]_gmG]7]_JCG1
+!s85 0
+Z11 !s108 1645050443.894089
+Z12 !s107 Lab4a.vo|
+!s101 -O0
+vdata_mem_vlg_check_tst
+!i10b 1
+Z13 !s100 L8QBgbJ>QMHQZ]z3F2iGc3
+Z14 IdVoagL>_]P_2?DEPUWdh30
+Z15 ViRY:BS6O^Am1;?O`[0bKT3
+R3
+Z16 w1645050425
+Z17 8data_mem.vwf.vt
+Z18 Fdata_mem.vwf.vt
+L0 66
+R7
+r1
+!s85 0
+31
+Z19 !s108 1645050446.787263
+Z20 !s107 data_mem.vwf.vt|
+Z21 !s90 -work|work|data_mem.vwf.vt|
+!s101 -O0
+R9
+vdata_mem_vlg_sample_tst
+!i10b 1
+Z22 !s100 DQd^TYK:ToC:Pz0O1MUR?2
+Z23 I<;zVh=B1In:gO7DamNg[H1
+Z24 V1RkYmZG]TfekzW9Ui<N082
+R3
+R16
+R17
+R18
+L0 30
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vdata_mem_vlg_vec_tst
+!i10b 1
+Z25 !s100 D1[HZR9caL>SVPk23PSCl1
+Z26 IUOfNh06WLGeQhR`8=FmbW3
+Z27 V@K8D@ZkME;XaT1;7GzGcL3
+R3
+R16
+R17
+R18
+Z28 L0 718
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
