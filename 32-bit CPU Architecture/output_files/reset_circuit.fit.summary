@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Mar 25 18:33:55 2022
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Full Version
+Revision Name : reset_circuit
+Top-level Entity Name : CPU_TEST_Sim
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 726 / 114,480 ( < 1 % )
+    Total combinational functions : 721 / 114,480 ( < 1 % )
+    Dedicated logic registers : 169 / 114,480 ( < 1 % )
+Total registers : 169
+Total pins : 209 / 529 ( 40 % )
+Total virtual pins : 0
+Total memory bits : 10,240 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

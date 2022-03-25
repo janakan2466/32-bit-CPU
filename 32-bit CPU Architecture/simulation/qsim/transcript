@@ -1,0 +1,91 @@
+# do reset_circuit.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CPU_TEST_Sim
+# 
+# Top level modules:
+# 	CPU_TEST_Sim
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CPU_TEST_Sim_vlg_sample_tst
+# -- Compiling module CPU_TEST_Sim_vlg_check_tst
+# -- Compiling module CPU_TEST_Sim_vlg_vec_tst
+# 
+# Top level modules:
+# 	CPU_TEST_Sim_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.CPU_TEST_Sim_vlg_vec_tst 
+# //  ModelSim ALTERA 10.1e Jun 12 2013 Linux 3.10.0-1160.36.2.el7.x86_64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.CPU_TEST_Sim_vlg_vec_tst
+# Loading work.CPU_TEST_Sim
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading work.CPU_TEST_Sim_vlg_sample_tst
+# Loading work.CPU_TEST_Sim_vlg_check_tst
+# SDF 10.1e Compiler 2013.06 Jun 12 2013
+# Loading instances from reset_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from reset_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst File: cpu_test_sim.vwf.vt
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2743 ps, 222 ps );
+#    Time: 2743 ps  Iteration: 1  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2774 ps, 222 ps );
+#    Time: 2774 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2789 ps, 222 ps );
+#    Time: 2789 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2829 ps, 222 ps );
+#    Time: 2829 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2891 ps, 222 ps );
+#    Time: 2891 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2896 ps, 222 ps );
+#    Time: 2896 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2906 ps, 222 ps );
+#    Time: 2906 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:2724 ps, d:2913 ps, 222 ps );
+#    Time: 2913 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_processor|dat|Data_Mem0|DATAMEM_rtl_0|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:393464 ps, d:393490 ps, 222 ps );
+#    Time: 393490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:393464 ps, d:393578 ps, 222 ps );
+#    Time: 393578 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a0 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:393464 ps, d:393657 ps, 222 ps );
+#    Time: 393657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:513464 ps, d:513490 ps, 222 ps );
+#    Time: 513490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:513464 ps, d:513559 ps, 222 ps );
+#    Time: 513559 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:513464 ps, d:513657 ps, 222 ps );
+#    Time: 513657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:633464 ps, d:633490 ps, 222 ps );
+#    Time: 633490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:633464 ps, d:633657 ps, 222 ps );
+#    Time: 633657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:753464 ps, d:753490 ps, 222 ps );
+#    Time: 753490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:753464 ps, d:753657 ps, 222 ps );
+#    Time: 753657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:873464 ps, d:873490 ps, 222 ps );
+#    Time: 873490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:873464 ps, d:873657 ps, 222 ps );
+#    Time: 873657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:993464 ps, d:993490 ps, 222 ps );
+#    Time: 993490 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# ** Error: /usr/local/Quartus14.0/modelsim_ae/linuxaloem/../altera/verilog/src/cycloneive_atoms.v(4543): $hold( posedge clk &&& reset:993464 ps, d:993657 ps, 222 ps );
+#    Time: 993657 ps  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/i1/\main_memory|altsyncram_component|auto_generated|ram_block1a14 /datain_a_register
+# Simulation passed !
+# ** Note: $finish    : cpu_test_sim.vwf.vt(3943)
+#    Time: 1 us  Iteration: 0  Instance: /CPU_TEST_Sim_vlg_vec_tst/tb_out

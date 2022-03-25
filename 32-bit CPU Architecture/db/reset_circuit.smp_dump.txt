@@ -1,0 +1,13 @@
+
+State Machine - |CPU_TEST_Sim|cpu1:main_processor|reset_circuit:reset|present_clk
+Name present_clk.clk3 present_clk.clk2 present_clk.clk1 present_clk.clk0 
+present_clk.clk0 0 0 0 0 
+present_clk.clk1 0 0 1 1 
+present_clk.clk2 0 1 0 1 
+present_clk.clk3 1 0 0 1 
+
+State Machine - |CPU_TEST_Sim|cpu1:main_processor|Control_New:control_unit|present_state
+Name present_state.state_2 present_state.state_1 present_state.state_0 
+present_state.state_0 0 0 0 
+present_state.state_1 0 1 1 
+present_state.state_2 1 0 1 
